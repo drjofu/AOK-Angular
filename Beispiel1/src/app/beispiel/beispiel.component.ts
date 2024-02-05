@@ -10,13 +10,14 @@ export class BeispielComponent {
   zahl = 1234;
   fs = '40px';
 
-  text?: string;
+  // text?: string;
+  text: string | undefined;
 
   buttonClick() {
     // let t = 'irgendwas';
     // this.info = t + ' anderes';
 
     this.info = `die Zahl ist ${this.zahl}, text: ${this.info}`;
-    this.text = 'neuer Text';
+    this.text = 'anderer Text';
   }
 }

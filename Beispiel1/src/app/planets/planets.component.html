@@ -1,0 +1,26 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Color</th>
+      <th>Length of year</th>
+      <th>Mass</th>
+      <th>Radius</th>
+      <th>Day</th>
+      <th>Satellites</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let planet of planets">
+      <td>{{ planet.name }}</td>
+      <td>{{ planet.color }}</td>
+      <td>{{ planet.length_of_year }}</td>
+      <td><app-measurement [measurement]="planet.mass"></app-measurement></td>
+      <td><app-measurement [measurement]="planet.radius"></app-measurement></td>
+      <td><app-measurement [measurement]="planet.day"></app-measurement></td>
+      <td><app-satellite-list [satellites]="planet.satellites"></app-satellite-list>
+       
+      </td>
+    </tr>
+  </tbody>
+</table>
