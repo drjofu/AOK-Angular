@@ -9,6 +9,7 @@ import { PlanetsComponent } from './planets/planets.component';
 import { MeasurementComponent } from './measurement/measurement.component';
 import { SatelliteComponent } from './satellite/satellite.component';
 import { SatelliteListComponent } from './satellite-list/satellite-list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { SatelliteListComponent } from './satellite-list/satellite-list.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

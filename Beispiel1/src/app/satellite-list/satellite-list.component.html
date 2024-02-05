@@ -1,5 +1,7 @@
-<table *ngIf="satellites">
-  <tr *ngFor="let satellite of satellites">
-    <td><app-satellite [satellite]="satellite"></app-satellite></td>
-  </tr>
+<table *ngIf="satellites" class="table table-condensed">
+  <tbody>
+    <tr *ngFor="let satellite of satellites">
+      <td><app-satellite [satellite]="satellite"></app-satellite></td>
+    </tr>
+  </tbody>
 </table>

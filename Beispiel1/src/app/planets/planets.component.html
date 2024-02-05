@@ -1,6 +1,7 @@
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
+      <th>Nr</th>
       <th>Name</th>
       <th>Color</th>
       <th>Length of year</th>
@@ -11,15 +12,19 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let planet of planets">
+    <!-- <tr *ngFor="let planet of planets$ | async"> -->
+    <tr *ngFor="let planet of planets; let i = index">
+      <td>{{i+1}}</td>
       <td>{{ planet.name }}</td>
       <td>{{ planet.color }}</td>
       <td>{{ planet.length_of_year }}</td>
       <td><app-measurement [measurement]="planet.mass"></app-measurement></td>
       <td><app-measurement [measurement]="planet.radius"></app-measurement></td>
       <td><app-measurement [measurement]="planet.day"></app-measurement></td>
-      <td><app-satellite-list [satellites]="planet.satellites"></app-satellite-list>
-       
+      <td>
+        <app-satellite-list
+          [satellites]="planet.satellites"
+        ></app-satellite-list>
       </td>
     </tr>
   </tbody>
