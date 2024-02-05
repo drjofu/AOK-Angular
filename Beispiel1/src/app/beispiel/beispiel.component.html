@@ -1,0 +1,32 @@
+<h2>Nur ein Beispiel</h2>
+
+<div>
+  Information: {{info}}
+  {{12+34}}
+</div>
+<div>
+  {{zahl}}
+</div>
+<div [style.font-size]="fs">
+  Schriftgröße einstellbar
+</div>
+
+<div *ngFor="let f of [10, 20, 30, 40]" [style.font-size]="f + 'px'">
+  Fontsize: {{f}}px
+</div>
+
+<div>
+  Fontsize: <input [(ngModel)]="fs">
+</div>
+
+<div>
+  <button (click)="buttonClick()">Bitte klicken</button>
+</div>
+
+<div>
+  Text: {{text}}, Länge: {{text?.length}}
+</div>
+
+<div *ngIf="text">
+  Text: {{text}}, Länge: {{text.length}}
+</div>
