@@ -1,0 +1,6 @@
+<div>
+  <button (click)="startObserveCold()">Observe cold</button>
+  <span>{{nCold$ | async}}</span>
+  <button (click)="startObserveHot()">Observe hot</button>
+  <span>{{nHot$ | async}}</span>
+</div>

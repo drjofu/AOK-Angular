@@ -1,0 +1,20 @@
+<div>
+  <button (click)="newNumber()">Neue Zahl</button>
+</div>
+<div>
+  {{k}}
+</div>
+<div>
+  {{numbers$ | async}}
+</div>
+<div>
+  {{numberService.numbers$ | async}}
+</div>
+
+<hr>
+
+<app-beispiel-observer></app-beispiel-observer>
+<hr>
+<app-beispiel-observer></app-beispiel-observer>
+<hr>
+<app-beispiel-observer></app-beispiel-observer>

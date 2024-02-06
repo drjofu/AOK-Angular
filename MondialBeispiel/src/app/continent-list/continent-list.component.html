@@ -1,0 +1,45 @@
+<h2>Continents</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Area</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- <tr *ngFor="let continent of continents"> -->
+    @for(continent of continents; track continent.id){
+    <tr>
+      <td>{{ continent.id }}</td>
+      <td>{{ continent.name }}</td>
+      <td>{{ continent.area }}</td>
+      <td>
+        <!-- <div *ngIf="showButtonSet1; else elseblock">
+          <a [routerLink]="['/countries', continent.id]" class="btn btn-primary">Countries</a>
+          <button (click)="showCountries(continent.id)" class="btn btn-info">Countries</button>
+        </div>
+        <ng-template #elseblock>
+          <div >
+            <a [routerLink]="['countries', continent.id]" class="btn btn-warning">Countries</a>
+            <button (click)="showCountries2(continent.id)" class="btn btn-danger">Countries</button>
+          </div>
+        </ng-template> -->
+
+        @if(showButtonSet1) {
+          <a [routerLink]="['/countries', continent.id]" class="btn btn-primary">Countries</a>
+          <button (click)="showCountries(continent.id)" class="btn btn-info">Countries</button>
+        }
+        @else
+        {
+          <a [routerLink]="['countries', continent.id]" class="btn btn-warning">Countries</a>
+          <button (click)="showCountries2(continent.id)" class="btn btn-danger">Countries</button>
+        }
+        <button (click)="selectContinent(continent)" class="btn btn-secondary">Select</button>
+      </td>
+      <!-- <td>{{$index}}</td> -->
+    </tr>
+  }
+  </tbody>
+</table>
