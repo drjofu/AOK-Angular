@@ -1,0 +1,13 @@
+<h1>Todos:</h1>
+@for(todo of todos; track todo.id){
+
+  <app-todo [todo]="todo"/>
+}
+
+<div>
+  <input (keyup)="changeText()">
+</div>
+<div>
+  <button (click)="changeFirstEntry()">1. Eintrag ändern</button>
+</div>
+

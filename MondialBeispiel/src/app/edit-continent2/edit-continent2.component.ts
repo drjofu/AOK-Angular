@@ -3,7 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { MondialService } from '../mondial.service';
 import { Continent } from '../models';
 import { CanDeactivateForm } from '../helper';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-edit-continent2',
@@ -23,6 +23,11 @@ export class EditContinent2Component implements OnInit, CanDeactivateForm {
     private fb: FormBuilder
   ) {}
 
+  evenNumber(x: FormControl) {
+    return x.value % 2 != 0 ? { notEven: { value: x.value } } : null;
+  }
+
+
   ngOnInit(): void {
     this.activatedRoute.params.subscribe((params) => {
       let continentId = params['continentId'];
@@ -35,7 +40,7 @@ export class EditContinent2Component implements OnInit, CanDeactivateForm {
             name: [continent.name, Validators.required],
             area: [
               continent.area,
-              [Validators.min(1000), Validators.max(100000000000)],
+              [Validators.min(1000), Validators.max(100000000000), this.evenNumber],
             ],
           });
         });

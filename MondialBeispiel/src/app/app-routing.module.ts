@@ -12,45 +12,49 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: 'world1',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: 'world1',
-    component: World1Component
+    component: World1Component,
   },
   {
-    path:'world2',
-    component:World2Component,
-    children:[
+    path: 'world2',
+    component: World2Component,
+    children: [
       {
         path: 'countries/:continentId',
-        component:CountryListComponent
-      }
-    ]
+        component: CountryListComponent,
+      },
+      {
+        path: 'edit1/:continentId',
+        component: EditContinent1Component,
+      },
+    ],
   },
   {
-    path:'edit1/:continentId',
+    path: 'edit1/:continentId',
     component: EditContinent1Component,
-    canDeactivate: [hasUnsavedChangesGuard]
+    canDeactivate: [hasUnsavedChangesGuard],
   },
   {
-    path:'edit2/:continentId',
+    path: 'edit2/:continentId',
     component: EditContinent2Component,
-    canDeactivate: [hasUnsavedChangesGuard]
+    canDeactivate: [hasUnsavedChangesGuard],
   },
 
   {
     path: 'countries/:continentId',
-    component: CountryListComponent
+    component: CountryListComponent,
   },
   {
     path: '**',
-    redirectTo: 'world1'
-  }
+    redirectTo: 'world1',
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

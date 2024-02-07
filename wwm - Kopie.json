@@ -1,0 +1,792 @@
+{
+  "aufgaben": [
+    {
+      "sg": 1,
+      "frage": "Welcher dieser Begriffe steht für Haftanstalt",
+      "antwort1": "Spanische Vorhänge",
+      "antwort2": "Englische Türen",
+      "antwort3": "Schwedische Gardinen",
+      "antwort4": "Sächsische Rollos",
+      "loesung": "C"
+    },
+    {
+      "sg": 1,
+      "frage": "Wie nennt man das Einkommen, das man nach dem Ausscheiden aus dem Arbeitsleben erhält",
+      "antwort1": "BAföG",
+      "antwort2": "Kindergeld",
+      "antwort3": "Rente",
+      "antwort4": "Erziehungsgeld",
+      "loesung": "C"
+    },
+    {
+      "sg": 1,
+      "frage": "Wie bezeichnet man den Montag in der Fastnachtswoche",
+      "antwort1": "Tulpenmontag",
+      "antwort2": "Veilchenmontag",
+      "antwort3": "Nelkenmontag",
+      "antwort4": "Rosenmontag",
+      "loesung": "D"
+    },
+    {
+      "sg": 1,
+      "frage": "Welches dieser Worte bedeutet nicht so viel wie sich schlagen",
+      "antwort1": "Kloppen",
+      "antwort2": "Prügeln",
+      "antwort3": "Raufen",
+      "antwort4": "Schunkeln",
+      "loesung": "D"
+    },
+    {
+      "sg": 1,
+      "frage": "Was sind Frischlinge",
+      "antwort1": "Kaulquappen",
+      "antwort2": "Wildschweinferkel",
+      "antwort3": "Rehkitze",
+      "antwort4": "Weidenkätzchen",
+      "loesung": "B"
+    },
+    {
+      "sg": 1,
+      "frage": "Wie lautet die grammatikalisch korrekte Steigerung des Wortes gut",
+      "antwort1": "guter",
+      "antwort2": "güter",
+      "antwort3": "besser",
+      "antwort4": "besessener",
+      "loesung": "C"
+    },
+    {
+      "sg": 2,
+      "frage": "Wie nennt man ein Jazzorchester",
+      "antwort1": "Blue Note",
+      "antwort2": "Big Bang",
+      "antwort3": "Boogie Woogie",
+      "antwort4": "Big Band",
+      "loesung": "D"
+    },
+    {
+      "sg": 2,
+      "frage": "Was kann man nicht als Salat verspeisen",
+      "antwort1": "Endivie",
+      "antwort2": "Rucola",
+      "antwort3": "Espresso",
+      "antwort4": "Radicchio",
+      "loesung": "C"
+    },
+    {
+      "sg": 2,
+      "frage": "Was sind Synagogen",
+      "antwort1": "vereint wirkende Kräfte",
+      "antwort2": "Türme eines Sultanspalastes",
+      "antwort3": "jüdische Gotteshäuser",
+      "antwort4": "Vulkanforscher",
+      "loesung": "C"
+    },
+    {
+      "sg": 3,
+      "frage": "Was ist ein Mime",
+      "antwort1": "Frisör",
+      "antwort2": "Schauspieler",
+      "antwort3": "Geizhals",
+      "antwort4": "Männliche Biene",
+      "loesung": "B"
+    },
+    {
+      "sg": 3,
+      "frage": "Was ist Genetik",
+      "antwort1": "Kaputte Uhr",
+      "antwort2": "Musik von Genesis",
+      "antwort3": "Vererbungslehre",
+      "antwort4": "Rentensystem",
+      "loesung": "C"
+    },
+    {
+      "sg": 3,
+      "frage": "Wie nennt man einen Einsiedler",
+      "antwort1": "Eremit",
+      "antwort2": "Erewan",
+      "antwort3": "Erektion",
+      "antwort4": "Erosion",
+      "loesung": "A"
+    },
+    {
+      "sg": 4,
+      "frage": "Was war in den USA während der so genannten Prohibition verboten",
+      "antwort1": "Sex",
+      "antwort2": "Baseball",
+      "antwort3": "Fahrrad fahren ",
+      "antwort4": "Alkoholgenuss",
+      "loesung": "D"
+    },
+    {
+      "sg": 4,
+      "frage": "In welcher Stadt fanden die Olympischen Sommerspiele 2000 statt",
+      "antwort1": "Toronto",
+      "antwort2": "Sydney",
+      "antwort3": "Sarajevo",
+      "antwort4": "Sofia",
+      "loesung": "B"
+    },
+    {
+      "sg": 4,
+      "frage": "Wie nennt man ein amtliches Grundstücksverzeichnis",
+      "antwort1": "Katakombe",
+      "antwort2": "Alabaster",
+      "antwort3": "Silentium",
+      "antwort4": "Kataster",
+      "loesung": "D"
+    },
+    {
+      "sg": 5,
+      "frage": "Was entdeckte der Chemiker Carl Wilhelm Scheele Ende des 18. Jahrhunderts",
+      "antwort1": "Godot",
+      "antwort2": "Guillotine",
+      "antwort3": "Gnome",
+      "antwort4": "Glycerin",
+      "loesung": "D"
+    },
+    {
+      "sg": 5,
+      "frage": "Wie lautet ein anderes Wort für Bienen",
+      "antwort1": "Ammen",
+      "antwort2": "Grimmen",
+      "antwort3": "Immen",
+      "antwort4": "Gemmen",
+      "loesung": "C"
+    },
+    {
+      "sg": 5,
+      "frage": "In welcher Stadt wurde die 'Lindenstraße' produziert und gedreht",
+      "antwort1": "Köln",
+      "antwort2": "Berlin",
+      "antwort3": "Baden-Baden",
+      "antwort4": "Dortmund",
+      "loesung": "A"
+    },
+    {
+      "sg": 6,
+      "frage": "Wie heißt ein mit Kümmel aromatisierter Branntwein",
+      "antwort1": "Sake",
+      "antwort2": "Aquavit",
+      "antwort3": "Arrak",
+      "antwort4": "Gin",
+      "loesung": "B"
+    },
+    {
+      "sg": 6,
+      "frage": "Zu welcher Vogelfamilie gehört der Wellensittich",
+      "antwort1": "Papageien",
+      "antwort2": "Rabenvögel",
+      "antwort3": "Finken",
+      "antwort4": "Eulen",
+      "loesung": "A"
+    },
+    {
+      "sg": 6,
+      "frage": "Welchen lateinischen Namen trägt der Gewöhnliche Hanf",
+      "antwort1": "Haschis chinopis",
+      "antwort2": "Marihuana communis",
+      "antwort3": "Potus vulgare",
+      "antwort4": "Cannabis sativa",
+      "loesung": "D"
+    },
+    {
+      "sg": 6,
+      "frage": "Wer entdeckte 1895 die X-Strahlen",
+      "antwort1": "Issac Newton",
+      "antwort2": "André Marie Ampère",
+      "antwort3": "Wilhelm Conrad Röntgen",
+      "antwort4": "Charles Darwin",
+      "loesung": "C"
+    },
+    {
+      "sg": 7,
+      "frage": "Was ist ein Tokajer",
+      "antwort1": "Likörwein",
+      "antwort2": "Paprikaschnaps",
+      "antwort3": "Tomatenlikör",
+      "antwort4": "Milchkaffee mit Wodka",
+      "loesung": "A"
+    },
+    {
+      "sg": 7,
+      "frage": "Welche dieser Inseln zählt zu Dänemark",
+      "antwort1": "Norderney",
+      "antwort2": "Seeland",
+      "antwort3": "Tahiti",
+      "antwort4": "Texel",
+      "loesung": "B"
+    },
+    {
+      "sg": 7,
+      "frage": "Wie heißt die Hauptstadt der Region Toskana",
+      "antwort1": "Lucca",
+      "antwort2": "Pisa",
+      "antwort3": "Florenz",
+      "antwort4": "Assisi",
+      "loesung": "C"
+    },
+    {
+      "sg": 8,
+      "frage": "Von welcher verheerenden Katastrophe wurde Hamburg im Mai 1842 heimgesucht",
+      "antwort1": "Hochwasser",
+      "antwort2": "Erdbeben",
+      "antwort3": "Großbrand",
+      "antwort4": "Sturmflut",
+      "loesung": "C"
+    },
+    {
+      "sg": 8,
+      "frage": "In welcher deutschen Stadt steht die Porta Nigra",
+      "antwort1": "Braunlage",
+      "antwort2": "Trier",
+      "antwort3": "Wolfsburg",
+      "antwort4": "Eisenhüttenstadt",
+      "loesung": "B"
+    },
+    {
+      "sg": 8,
+      "frage": "Was ruft der Segler als Kommando für eine Wende",
+      "antwort1": "Hee!",
+      "antwort2": "Ree!",
+      "antwort3": "Schnee!",
+      "antwort4": "Lee!",
+      "loesung": "B"
+    },
+    {
+      "sg": 9,
+      "frage": "Welche Insel teilen sich die Dominikanische Republik und Haiti",
+      "antwort1": "Santiago",
+      "antwort2": "Trinidad",
+      "antwort3": "Hispaniola",
+      "antwort4": "Puerto Rico",
+      "loesung": "C"
+    },
+    {
+      "sg": 9,
+      "frage": "Wem gehörte nie die Insel Kuba",
+      "antwort1": "Spanien",
+      "antwort2": "England",
+      "antwort3": "Frankreich",
+      "antwort4": "USA",
+      "loesung": "C"
+    },
+    {
+      "sg": 9,
+      "frage": "Wie heißt die Hauptstadt von Armenien",
+      "antwort1": "Tripolis",
+      "antwort2": "Jerewan",
+      "antwort3": "Baku",
+      "antwort4": "Ankara",
+      "loesung": "B"
+    },
+    {
+      "sg": 10,
+      "frage": "Zu welchem Land gehört Spitzbergen",
+      "antwort1": "Schweden",
+      "antwort2": "Norwegen",
+      "antwort3": "Finnland",
+      "antwort4": "Dänemark",
+      "loesung": "B"
+    },
+    {
+      "sg": 10,
+      "frage": "Wofür steht in der Mathematik das Symbol e",
+      "antwort1": "Energieverlust",
+      "antwort2": "Enigma",
+      "antwort3": "eulersche Zahl",
+      "antwort4": "essentieller Bruch",
+      "loesung": "C"
+    },
+    {
+      "sg": 10,
+      "frage": "Womit werden im Restaurant Speisen warm gehalten",
+      "antwort1": "Renault",
+      "antwort2": "Arnault",
+      "antwort3": "Pierrot",
+      "antwort4": "Rechaud",
+      "loesung": "D"
+    },
+    {
+      "sg": 10,
+      "frage": "Wer führte Regie bei '2001: Odyssee im Weltraum'",
+      "antwort1": "Jean-Luc Godart",
+      "antwort2": "Roman Polanski",
+      "antwort3": "Stanley Kubrick",
+      "antwort4": "Francis Ford Coppola",
+      "loesung": "C"
+    },
+    {
+      "sg": 11,
+      "frage": "Wie heißt der Mörder von John Lennon",
+      "antwort1": "Kevin Hundt",
+      "antwort2": "Nick Oldfield",
+      "antwort3": "Mark Chapman",
+      "antwort4": "John Colding",
+      "loesung": "C"
+    },
+    {
+      "sg": 11,
+      "frage": "Wie lautet das höchste spanische Adelsprädikat",
+      "antwort1": "Bojar",
+      "antwort2": "Earl",
+      "antwort3": "Duke",
+      "antwort4": "Duque",
+      "loesung": "D"
+    },
+    {
+      "sg": 11,
+      "frage": "Wie heißt die Hauptstadt von Uganda",
+      "antwort1": "Kampala",
+      "antwort2": "Kingston",
+      "antwort3": "Sanaa",
+      "antwort4": "Harare",
+      "loesung": "A"
+    },
+    {
+      "sg": 11,
+      "frage": "Wie hieß Harare früher",
+      "antwort1": "Winchester",
+      "antwort2": "Salisbury",
+      "antwort3": "London",
+      "antwort4": "Birmingham",
+      "loesung": "B"
+    },
+    {
+      "sg": 12,
+      "frage": "Wie hieß der älteste Sohn Noahs",
+      "antwort1": "Sem",
+      "antwort2": "Moshe",
+      "antwort3": "Aaron",
+      "antwort4": "Simon",
+      "loesung": "A"
+    },
+    {
+      "sg": 12,
+      "frage": "Welches dieser Tiere gibt es wirklich",
+      "antwort1": "Lexikonweber",
+      "antwort2": "Almanachspinne",
+      "antwort3": "Zeitungstarantel",
+      "antwort4": "Bücherskorpion",
+      "loesung": "D"
+    },
+    {
+      "sg": 12,
+      "frage": "Was ist ein Donnerkeil",
+      "antwort1": "Düsenjäger",
+      "antwort2": "versteinerter Kopffüßer",
+      "antwort3": "Waffe Thors",
+      "antwort4": "Loch in der Schallmauer",
+      "loesung": "B"
+    },
+    {
+      "sg": 12,
+      "frage": "Welcher dieser Begriffe steht für eine Hunderasse",
+      "antwort1": "Sherpa",
+      "antwort2": "Saluen",
+      "antwort3": "Saluki",
+      "antwort4": "Salpe",
+      "loesung": "C"
+    },
+    {
+      "sg": 13,
+      "frage": "Wie heißt die Hauptstadt von Grenada",
+      "antwort1": "Saint Kitts",
+      "antwort2": "Saint Helena",
+      "antwort3": "Saint John's",
+      "antwort4": "Saint George's",
+      "loesung": "D"
+    },
+    {
+      "sg": 13,
+      "frage": "Was ist Machorka",
+      "antwort1": "Gartenharke",
+      "antwort2": "russischer Tabak",
+      "antwort3": "Baleareninsel",
+      "antwort4": "Weinsorte",
+      "loesung": "B"
+    },
+    {
+      "sg": 13,
+      "frage": "Die Hauptstadt welchen Landes ist San José",
+      "antwort1": "Guatemala",
+      "antwort2": "Honduras",
+      "antwort3": "Panama",
+      "antwort4": "Costa Rica",
+      "loesung": "D"
+    },
+    {
+      "sg": 13,
+      "frage": "Welche Meeresstraße trennt Australien und Tasmanien",
+      "antwort1": "Van-Diemen-Straße",
+      "antwort2": "Cook-Straße",
+      "antwort3": "Abel-Tasman-Straße",
+      "antwort4": "Bass-Straße",
+      "loesung": "D"
+    },
+    {
+      "sg": 14,
+      "frage": "Wie heißt die fünftgrößte Insel der Erde",
+      "antwort1": "Madagaskar",
+      "antwort2": "Sumatra",
+      "antwort3": "Sri Lanka",
+      "antwort4": "Baffinland",
+      "loesung": "D"
+    },
+    {
+      "sg": 14,
+      "frage": "Was bezeichnet der Mediziner als Palatum",
+      "antwort1": "Augenbraue",
+      "antwort2": "Hirnanhangdrüse",
+      "antwort3": "Gaumen",
+      "antwort4": "Zeigefinger",
+      "loesung": "C"
+    },
+    {
+      "sg": 14,
+      "frage": "Was ist der Dalasi",
+      "antwort1": "ungarischer Fluss",
+      "antwort2": "gambische Währung",
+      "antwort3": "tibetanischer Hirsch",
+      "antwort4": "albanischer Volksheld",
+      "loesung": "B"
+    },
+    {
+      "sg": 14,
+      "frage": "Welches Volk regierten Gorm der Alte, Harald Hein und Olaf Hunger",
+      "antwort1": "Schweden",
+      "antwort2": "Norweger",
+      "antwort3": "Dänen",
+      "antwort4": "Esten",
+      "loesung": "C"
+    },
+    {
+      "sg": 15,
+      "frage": "Was ist eine Mridanga",
+      "antwort1": "Frucht",
+      "antwort2": "Stichwaffe",
+      "antwort3": "Fledermaus",
+      "antwort4": "Trommel",
+      "loesung": "D"
+    },
+    {
+      "sg": 15,
+      "frage": "Welches dieser Tiere gibt es nicht",
+      "antwort1": "Silbergräber",
+      "antwort2": "Klappmütze",
+      "antwort3": "Palmendieb",
+      "antwort4": "Himmelsgucker",
+      "loesung": "A"
+    },
+    {
+      "sg": 15,
+      "frage": "Welche dieser britischen Tageszeitungen ist die älteste",
+      "antwort1": "The Daily Telegraph",
+      "antwort2": "Daily Mail",
+      "antwort3": "Daily Mirror",
+      "antwort4": "Daily Express",
+      "loesung": "A"
+    },
+    {
+      "sg": 15,
+      "frage": "Was ist eine Situla",
+      "antwort1": "Kapuzengewand",
+      "antwort2": "Querflöte",
+      "antwort3": "Bronzeeimer",
+      "antwort4": "Rohrkolbenpfeiffe",
+      "loesung": "C"
+    },
+    {
+      "sg": 12,
+      "frage": "Über welches Gewässer zieht der Rauch im Deep Purple Song 'Smoke on the water'",
+      "antwort1": "Ärmelkanal",
+      "antwort2": "Atlantik",
+      "antwort3": "Genfer See",
+      "antwort4": "Themse",
+      "loesung": "C"
+    },
+    {
+      "sg": 13,
+      "frage": "Was ist ein 'Ursus arctos arctos'",
+      "antwort1": "Grizzly",
+      "antwort2": "Eisbär",
+      "antwort3": "eurasischer Braunbär",
+      "antwort4": "Polarfuchs",
+      "loesung": "C"
+    },
+    {
+      "sg": 12,
+      "frage": "Welche Pflanze produziert das Gift Atropin",
+      "antwort1": "Eberesche",
+      "antwort2": "Sauerklee",
+      "antwort3": "Fingerhut",
+      "antwort4": "Tollkirsche",
+      "loesung": "D"
+    },
+    {
+      "sg": 10,
+      "frage": "Was verbirgt sich hinter dem Begriff 'Digitalis'",
+      "antwort1": "Fingerhut",
+      "antwort2": "Fingernagel",
+      "antwort3": "Computertechnik",
+      "antwort4": "Marssonde",
+      "loesung": "A"
+    },
+    {
+      "sg": 14,
+      "frage": "Wer spielte James Bond zu einer Titelmusik von Paul Mc Cartney",
+      "antwort1": "Sean Connery",
+      "antwort2": "Roger Moore",
+      "antwort3": "Timothy Dalton",
+      "antwort4": "Pierce Brosnan",
+      "loesung": "B"
+    },
+    {
+      "sg": 3,
+      "frage": "In welchem Bundesland liegt Frankfurt",
+      "antwort1": "Bayern",
+      "antwort2": "Hessen",
+      "antwort3": "Nordrhein Westfalen",
+      "antwort4": "Rheinland Pfalz",
+      "loesung": "B"
+    },
+    {
+      "sg": 11,
+      "frage": "Was ist auch im botanischen Sinne eine Beere",
+      "antwort1": "Stachelbeere",
+      "antwort2": "Himbeere",
+      "antwort3": "Brombeere",
+      "antwort4": "Erdbeere",
+      "loesung": "A"
+    },
+    {
+      "sg": 12,
+      "frage": "Wo ist das nördlichste Vorkommen von Pinguinen",
+      "antwort1": "südl. Polarkreis",
+      "antwort2": "südl. Wendekreis",
+      "antwort3": "Äquator",
+      "antwort4": "nördl. Polarkreis",
+      "loesung": "C"
+    },
+    {
+      "sg": 14,
+      "frage": "Woher kommt der Kona-Kaffee",
+      "antwort1": "Brasilien",
+      "antwort2": "Hawaii",
+      "antwort3": "Honduras",
+      "antwort4": "Australien",
+      "loesung": "B"
+    },
+    {
+      "sg": 2,
+      "frage": "Wer bringt der Sage nach die Kinder",
+      "antwort1": "Klapperstorch",
+      "antwort2": "Flugsaurier",
+      "antwort3": "Flying Doctor Service",
+      "antwort4": "Kentucky Fried Chicken",
+      "loesung": "A"
+    },
+    {
+      "sg": 15,
+      "frage": "Welcher Tag ist gemeint mit 'the day the music died'",
+      "antwort1": "03. Feb 59",
+      "antwort2": "03. Mrz 65",
+      "antwort3": "03. Okt 80",
+      "antwort4": "3.Dezember 1856",
+      "loesung": "A"
+    },
+    {
+      "sg": 12,
+      "frage": "Wie heißt die Hauptstadt von Neuseeland",
+      "antwort1": "Auckland",
+      "antwort2": "Christchurch",
+      "antwort3": "Wellington",
+      "antwort4": "Napier",
+      "loesung": "C"
+    },
+    {
+      "sg": 14,
+      "frage": "Zu welchem australischen Bundesland gehört 'Kangaroo Island'",
+      "antwort1": "New South Wales",
+      "antwort2": "South Australia",
+      "antwort3": "Queensland",
+      "antwort4": "Victoria",
+      "loesung": "B"
+    },
+    {
+      "sg": 14,
+      "frage": "Wie heißt die Hauptstadt des australischen Bundeslandes Victoria",
+      "antwort1": "Sydney",
+      "antwort2": "Adelaide",
+      "antwort3": "Darwin",
+      "antwort4": "Melbourne",
+      "loesung": "D"
+    },
+    {
+      "sg": 15,
+      "frage": "'Es braust ein Ruf wie Donnerhall, wie Schwertgeklirr und Wogenprall' liest man in Stein gehauen an welchem monumentalen deutschen Denkmal",
+      "antwort1": " Völkerschlachtsdenkmal, Leipzig",
+      "antwort2": "Niederwalddenkmal bei Rüdesheim",
+      "antwort3": "Walhalla",
+      "antwort4": "Herrmannsdenkmal",
+      "loesung": "B"
+    },
+    {
+      "sg": 12,
+      "frage": "'Den König von Spanien hab ich allzeit geehrt' heißt es wörtlich in der Nationalhymne",
+      "antwort1": "Andorras",
+      "antwort2": "Portugals",
+      "antwort3": "Belgiens",
+      "antwort4": "der Niederlande",
+      "loesung": "D"
+    },
+    {
+      "sg": 5,
+      "frage": "Wie viele Tage hat der April",
+      "antwort1": "28",
+      "antwort2": "28 oder 29",
+      "antwort3": "30",
+      "antwort4": "31",
+      "loesung": "C"
+    },
+    {
+      "sg": 8,
+      "frage": "'Ons Heemecht' heißt die Nationalhymne",
+      "antwort1": "der Niederlande",
+      "antwort2": "Belgiens",
+      "antwort3": "Luxemburgs",
+      "antwort4": "Südafrikas",
+      "loesung": "C"
+    },
+    {
+      "sg": 15,
+      "frage": "Mit den Worten 'Es liegt ein lieblich Land im Schatten breiter Buchen' beginnt",
+      "antwort1": "die Nationalhymne Dänemarks",
+      "antwort2": "das Lied 717 aus dem kirchlichen Gesangsbuch",
+      "antwort3": "ein bekanntes, altes süddeutsches Volkslied",
+      "antwort4": "ein Karnevalsschlager",
+      "loesung": "A"
+    },
+    {
+      "sg": 15,
+      "frage": "Eine Kolonie welcher Pinguinart gilt als die südlichste",
+      "antwort1": "Königspinguin",
+      "antwort2": "Gelbaugenpinguin",
+      "antwort3": "Kaiserpinguin ",
+      "antwort4": "Adeliepinguin",
+      "loesung": "D"
+    },
+    {
+      "sg": 12,
+      "frage": "Wem wurde an der Porta Westfalica ein Denkmal errichtet",
+      "antwort1": "Kaiser Wilhelm II",
+      "antwort2": "Hermann der Cherusker",
+      "antwort3": "Kaiser Wilhelm I",
+      "antwort4": "Ludwig II",
+      "loesung": "C"
+    },
+    {
+      "sg": 14,
+      "frage": "Welche ist die älteste Autobahn Deutschlands",
+      "antwort1": "A1",
+      "antwort2": "A2",
+      "antwort3": "A555",
+      "antwort4": "AVUS (Teil der A115)",
+      "loesung": "C"
+    },
+    {
+      "sg": 15,
+      "frage": "In welchem Jahr wurde Angela Merkel geboren",
+      "antwort1": "1953",
+      "antwort2": "1954",
+      "antwort3": "1955",
+      "antwort4": "1956",
+      "loesung": "B"
+    },
+    {
+      "sg": 13,
+      "frage": "Wo wurde Angela Merkel geboren",
+      "antwort1": "Hannover",
+      "antwort2": "Hamburg",
+      "antwort3": "Berlin",
+      "antwort4": "Frankfurt",
+      "loesung": "B"
+    },
+    {
+      "sg": 5,
+      "frage": "Wie heißt eine Wüste in Afrika",
+      "antwort1": "Sahara",
+      "antwort2": "Saharah",
+      "antwort3": "Saharha",
+      "antwort4": "Saharhah",
+      "loesung": "A"
+    },
+    {
+      "sg": 9,
+      "frage": "Welche Wüste liegt in Australien",
+      "antwort1": "Sahara",
+      "antwort2": "Gobi",
+      "antwort3": "Tanami",
+      "antwort4": "Atacama",
+      "loesung": "C"
+    },
+    {
+      "sg": 11,
+      "frage": "Wer hat 'Tiere vor der Kamera'",
+      "antwort1": "Ernst Arendt und Hans Schweiger",
+      "antwort2": "Dirk Steffens",
+      "antwort3": "Bernhard Grzimek",
+      "antwort4": "Heinz Sielmann",
+      "loesung": "A"
+    },
+    {
+      "sg": 10,
+      "frage": "Wo leben Wombats",
+      "antwort1": "Neuseeland",
+      "antwort2": "Papua-Neuguinea",
+      "antwort3": "Australien",
+      "antwort4": "Mittelamerika",
+      "loesung": "C"
+    },
+    {
+      "sg": 9,
+      "frage": "Was sind Wombats",
+      "antwort1": "Fledermäuse ",
+      "antwort2": "Beuteltiere",
+      "antwort3": "Tiefseefische",
+      "antwort4": "Spinnentiere",
+      "loesung": "B"
+    },
+    {
+      "sg": 8,
+      "frage": "Wer trifft sich nicht im natürlichen Lebensraum",
+      "antwort1": "Kea und Känguru",
+      "antwort2": "Pinguin und Buckelwal",
+      "antwort3": "Känguru und Paradiesvogel",
+      "antwort4": "Katz und Maus",
+      "loesung": "A"
+    },
+    {
+      "sg": 2,
+      "frage": "In der Nacht sind alle Katzen…",
+      "antwort1": "blau",
+      "antwort2": "grau",
+      "antwort3": "gelb ",
+      "antwort4": "grün",
+      "loesung": "B"
+    },
+    {
+      "sg": 3,
+      "frage": "Wobei handelt es sich um ein Nagetier",
+      "antwort1": "Sechsschnarcher",
+      "antwort2": "Siebenschläfer",
+      "antwort3": "Achtdöser",
+      "antwort4": "Neunträumer",
+      "loesung": "B"
+    }
+  ],
+  
+  "gewinnstufen": [
+    50, 100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000,
+    500000, 1000000
+  ]
+}

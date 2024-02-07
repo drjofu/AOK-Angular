@@ -7,4 +7,8 @@
   <div *ngIf="control?.errors!['max']">
     too big, maximum is {{control.errors!['max'].max}}
   </div>
+  <div *ngIf="control?.errors!['notEven']">
+    number is not even
+  </div>
+
 </div>
