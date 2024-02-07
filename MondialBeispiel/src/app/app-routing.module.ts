@@ -4,6 +4,7 @@ import { ContinentListComponent } from './continent-list/continent-list.componen
 import { World1Component } from './world1/world1.component';
 import { CountryListComponent } from './country-list/country-list.component';
 import { World2Component } from './world2/world2.component';
+import { EditContinent1Component } from './edit-continent1/edit-continent1.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,10 @@ const routes: Routes = [
         component:CountryListComponent
       }
     ]
+  },
+  {
+    path:'edit1/:continentId',
+    component: EditContinent1Component
   },
   {
     path: 'countries/:continentId',

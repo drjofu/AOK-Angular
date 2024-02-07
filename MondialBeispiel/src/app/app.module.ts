@@ -13,6 +13,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import localeDe from '@angular/common/locales/de';
 import localeDeExtra from '@angular/common/locales/extra/de';
 import { World2Component } from './world2/world2.component';
+import { EditContinent1Component } from './edit-continent1/edit-continent1.component';
 
 registerLocaleData(localeDe, 'de-DE', localeDeExtra);
 
@@ -23,7 +24,8 @@ registerLocaleData(localeDe, 'de-DE', localeDeExtra);
     World1Component,
     CountryListComponent,
     NavbarComponent,
-    World2Component
+    World2Component,
+    EditContinent1Component
   ],
   imports: [
     BrowserModule,

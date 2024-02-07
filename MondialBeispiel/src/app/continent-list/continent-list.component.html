@@ -37,6 +37,9 @@
           <button (click)="showCountries2(continent.id)" class="btn btn-danger">Countries</button>
         }
         <button (click)="selectContinent(continent)" class="btn btn-secondary">Select</button>
+
+        <a [routerLink]="['/edit1', continent.id]" class="btn btn-primary">Edit 1</a>
+
       </td>
       <!-- <td>{{$index}}</td> -->
     </tr>
