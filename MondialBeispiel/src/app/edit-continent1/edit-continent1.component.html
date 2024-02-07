@@ -1,1 +1,49 @@
-<p>edit-continent1 works!</p>
+<h2>Edit continent</h2>
+
+<form #f="ngForm" name="editForm"  (ngSubmit)="save()">
+  <div class="form-group" *ngIf="continent">
+    <label for="name">Name</label>
+    <input
+      id="name"
+      name="name"
+      #name="ngModel"
+      [(ngModel)]="continent.name"
+      class="form-control"
+      required
+      minlength="4"
+      maxlength="20"
+    />
+    <div *ngIf="name.invalid" class="alert alert-danger">
+      Errors:
+      <div *ngIf="name.errors!['required']">Continent must have a name</div>
+      <div *ngIf="name.errors!['minlength']">Name too short</div>
+      <div *ngIf="name.errors!['maxlength']">Name too long</div>
+    </div>
+  </div>
+  <div class="form-group" *ngIf="continent">
+    <label for="area">Area</label>
+    <input
+      id="area"
+      name="area"
+      #area="ngModel"
+      [(ngModel)]="continent.area"
+      class="form-control"
+      type="number"
+      [min]="1000"
+      [max]="10000000000"
+    />
+    <div *ngIf="area.invalid" class="alert alert-danger">
+      Errors:
+      <div *ngIf="area.errors!['min']">too small</div>
+      <div *ngIf="area.errors!['max']">too big</div>
+    </div>
+  </div>
+
+  <div>
+    <button type="submit" class="btn btn-success" [disabled]="f.form.invalid || f.form.pristine">Save</button>
+    <button (click)="cancel()" class="btn btn-danger">Cancel</button>
+  </div>
+  <!-- <div>
+    {{f.form | json}}
+  </div> -->
+</form>

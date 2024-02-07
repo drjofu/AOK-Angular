@@ -5,6 +5,8 @@ import { World1Component } from './world1/world1.component';
 import { CountryListComponent } from './country-list/country-list.component';
 import { World2Component } from './world2/world2.component';
 import { EditContinent1Component } from './edit-continent1/edit-continent1.component';
+import { hasUnsavedChangesGuard } from './helper';
+import { EditContinent2Component } from './edit-continent2/edit-continent2.component';
 
 const routes: Routes = [
   {
@@ -28,8 +30,15 @@ const routes: Routes = [
   },
   {
     path:'edit1/:continentId',
-    component: EditContinent1Component
+    component: EditContinent1Component,
+    canDeactivate: [hasUnsavedChangesGuard]
   },
+  {
+    path:'edit2/:continentId',
+    component: EditContinent2Component,
+    canDeactivate: [hasUnsavedChangesGuard]
+  },
+
   {
     path: 'countries/:continentId',
     component: CountryListComponent

@@ -1,0 +1,21 @@
+<h2>Edit continent 2</h2>
+<form [formGroup]="continentForm" *ngIf="continentForm" (ngSubmit)="save()">
+  <div class="form-group">
+    <label>Name:
+      <input type="text" class="form-control" formControlName="name">
+      <!-- <div *ngIf="continentForm.controls['name'].invalid">
+        Fehler...
+        {{continentForm.controls['name'].errors | json}}
+      </div> -->
+      <app-validation-messages [control]="continentForm.controls['name']"></app-validation-messages>
+    </label>
+  </div>
+  <div class="form-group">
+    <label>Area:
+      <input type="number" class="form-control" formControlName="area">
+      <app-validation-messages [control]="continentForm.controls['area']"></app-validation-messages>
+    </label>
+  </div>
+  <button type="submit" class="btn btn-success" [disabled]="continentForm.invalid">Save</button>
+  <button (click)="cancel()" class="btn btn-danger">Cancel</button>
+</form>

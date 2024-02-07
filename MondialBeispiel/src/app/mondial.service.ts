@@ -22,4 +22,9 @@ export class MondialService {
     // console.log('get countries for ' + continentId);
     return this.httpClient.get<Country[]>(`${this.baseUrl}countries?continentId=${continentId}`);
   }
+
+  updateContinent(continent: Continent ) {
+    return this.httpClient.put<Continent>(`${this.baseUrl}continents/${continent.id}`, continent);
+  }
+
 }

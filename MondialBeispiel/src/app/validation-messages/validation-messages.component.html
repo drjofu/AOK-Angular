@@ -1,0 +1,10 @@
+<div *ngIf="control?.invalid && control?.errors" class="alert alert-danger">
+  Errors:
+  <div *ngIf="(control?.errors)!['required']">Value is required</div>
+  <div *ngIf="control?.errors!['min']">
+    too small, minimum is {{control.errors!['min'].min}}
+  </div>
+  <div *ngIf="control?.errors!['max']">
+    too big, maximum is {{control.errors!['max'].max}}
+  </div>
+</div>

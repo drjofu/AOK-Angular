@@ -14,6 +14,9 @@ import localeDe from '@angular/common/locales/de';
 import localeDeExtra from '@angular/common/locales/extra/de';
 import { World2Component } from './world2/world2.component';
 import { EditContinent1Component } from './edit-continent1/edit-continent1.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { EditContinent2Component } from './edit-continent2/edit-continent2.component';
+import { ValidationMessagesComponent } from './validation-messages/validation-messages.component';
 
 registerLocaleData(localeDe, 'de-DE', localeDeExtra);
 
@@ -25,12 +28,16 @@ registerLocaleData(localeDe, 'de-DE', localeDeExtra);
     CountryListComponent,
     NavbarComponent,
     World2Component,
-    EditContinent1Component
+    EditContinent1Component,
+    EditContinent2Component,
+    ValidationMessagesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [ { provide: LocationStrategy, useClass: HashLocationStrategy },
     { provide: LOCALE_ID, useValue: 'de-DE' }],
