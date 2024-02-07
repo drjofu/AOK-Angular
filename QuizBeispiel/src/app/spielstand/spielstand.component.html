@@ -1,1 +1,10 @@
-<p>spielstand works!</p>
+<div class="gewinnstufen">
+  @if(gewinnstufen()){
+     @for( gs of gewinnstufen(); track $index){
+  <div [class.selected]="erreichterSchwierigkeitsgrad() == 15 - $index">
+    {{ gewinnstufen()[15 - $index] }}
+  </div>
+  } } @else {
+  <div>Geld muss erst beschafft werden</div>
+  }
+</div>

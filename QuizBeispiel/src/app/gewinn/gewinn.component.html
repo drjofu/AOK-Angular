@@ -1,1 +1,8 @@
-<p>gewinn works!</p>
+@if(gewinn()){
+  <div  >
+    <h1>Glückwunsch zu {{gewinn()}} Gummipunkten</h1>
+  </div>
+  }
+  @else {
+    <h1>Das war wohl nichts. Vielleicht beim nächsten mal...</h1>
+  }

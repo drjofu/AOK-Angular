@@ -1,1 +1,36 @@
-<p>aufgabe works!</p>
+<div class="Aufgabe">
+  @if(aufgabe()){
+  <h2>{{ aufgabe()!.frage }}?</h2>
+  <div>
+    <div>
+      <label>
+        <input type="radio" value="A" [(ngModel)]="buchstabe" />
+        {{ aufgabe()!.antwort1 }}
+      </label>
+    </div>
+    <div>
+      <label
+        ><input type="radio" value="B" [(ngModel)]="buchstabe" />
+        {{ aufgabe()!.antwort2 }}</label
+      >
+    </div>
+    <div>
+      <label
+        ><input type="radio" value="C" [(ngModel)]="buchstabe" />
+        {{ aufgabe()!.antwort3 }}</label
+      >
+    </div>
+    <div>
+      <label
+        ><input type="radio" value="D" [(ngModel)]="buchstabe" />
+        {{ aufgabe()!.antwort4 }}</label
+      >
+    </div>
+  </div>
+  <div>
+    <br />
+    <button (click)="antworten()" [disabled]="!buchstabe">Antworten</button>
+    <button (click)="aufgeben()">Aufgeben</button>
+  </div>
+  }
+</div>

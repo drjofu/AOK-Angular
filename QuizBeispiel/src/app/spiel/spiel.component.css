@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  
+  grid-template-columns: 200px auto;
+  grid-template-areas: 's ag';
+  width: 100%;
+  height: 100%;
+}
+
+.aufgabe {
+  grid-area: ag;
+  margin: 20px;
+
+}
+
+.spielstand {
+  grid-area: s;
+}
+
+.gewinn{
+  grid-area: ag;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+h1{
+  text-align: center;
+}

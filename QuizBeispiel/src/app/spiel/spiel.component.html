@@ -1,2 +1,17 @@
-<p>spiel works!</p>
-{{spielService.aktuellerSchwierigkeitsgrad()}}
+<h1>Quiz</h1>
+
+<div class="container">
+  <div class="spielstand">
+    <app-spielstand />
+  </div>
+
+  @if(!spielende()){
+  <div class="aufgabe">
+    <app-aufgabe />
+  </div>
+  } @if(spielende()){
+  <div class="gewinn">
+    <app-gewinn />
+  </div>
+  }
+</div>
